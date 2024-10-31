@@ -51,7 +51,7 @@ with webuntis.Session(server=server, username=username,password=password,school=
     start_date = today - datetime.timedelta(days=today.weekday())  # Start of the week (Monday)
     end_date = start_date + datetime.timedelta(days=15)
 
-    klasse = s.klassen().filter(name="E1FS5")[0]
+    klasse = s.klassen().filter(name=os.getenv("UNTIS_KLASSE"))[0]
 
     table_extended = s.timetable_extended(klasse=klasse,start=start_date,end=end_date).to_table()
 
