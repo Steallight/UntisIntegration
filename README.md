@@ -1,6 +1,12 @@
+[maven-central]: https://img.shields.io/badge/python-v1-blue
+[progress-release]: https://img.shields.io/badge/build-stable-green
+[installation]: #-installation
+
 # UntisIntegration
 A simple Discord bot to fetch your school schedule from Untis.
 
+[![maven-central][]][installation]
+[![progress-release][]][installation]
 
 ## Quick Links
 - [Installation](#installation)
