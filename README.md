@@ -1,6 +1,12 @@
 # UntisIntegration
 A simple Discord bot to fetch your school schedule from Untis.
 
+
+## Quick Links
+- [Installation](#installation)
+- [Usage](#usage)
+- [How it works](#how-it-works)
+
 ## Installation
 1. **Clone the repository:**
 
