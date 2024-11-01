@@ -5,8 +5,8 @@
 # UntisIntegration
 A simple Discord bot to fetch your school schedule from Untis.
 
-[maven-central]
-[progress-release]
+![maven-central][]
+![progress-release][]
 
 ## Quick Links
 - [Installation](#installation)
